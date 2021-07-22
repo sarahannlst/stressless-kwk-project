@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23DE995A26A9FDD20087158D /* WritePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE995926A9FDD20087158D /* WritePostViewController.swift */; };
+		23DE995C26A9FEB10087158D /* SeePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE995B26A9FEB10087158D /* SeePostViewController.swift */; };
 		A814168926A895CA003E6241 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A814168826A895CA003E6241 /* ToDoListTableViewController.swift */; };
 		A87E67B426A8970800B952A8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E67B326A8970800B952A8 /* ToDo.swift */; };
 		A87E67B626A8976100B952A8 /* CompletedToDo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E67B526A8976100B952A8 /* CompletedToDo1ViewController.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23DE995926A9FDD20087158D /* WritePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePostViewController.swift; sourceTree = "<group>"; };
+		23DE995B26A9FEB10087158D /* SeePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeePostViewController.swift; sourceTree = "<group>"; };
 		A814168826A895CA003E6241 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
 		A87E67B326A8970800B952A8 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		A87E67B526A8976100B952A8 /* CompletedToDo1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedToDo1ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				A89E214B26A756D4002A4D73 /* LaunchScreen.storyboard */,
 				A89E214E26A756D4002A4D73 /* Info.plist */,
 				A89E214626A756D3002A4D73 /* stressless_kwk_project.xcdatamodeld */,
+				23DE995926A9FDD20087158D /* WritePostViewController.swift */,
+				23DE995B26A9FEB10087158D /* SeePostViewController.swift */,
 			);
 			path = "stressless-kwk-project";
 			sourceTree = "<group>";
@@ -150,8 +156,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A87E67B626A8976100B952A8 /* CompletedToDo1ViewController.swift in Sources */,
+				23DE995C26A9FEB10087158D /* SeePostViewController.swift in Sources */,
 				A89E214826A756D3002A4D73 /* stressless_kwk_project.xcdatamodeld in Sources */,
 				A87E67B426A8970800B952A8 /* ToDo.swift in Sources */,
+				23DE995A26A9FDD20087158D /* WritePostViewController.swift in Sources */,
 				A89E213E26A756D3002A4D73 /* AppDelegate.swift in Sources */,
 				A87E67B826A897F800B952A8 /* AddToDoViewController.swift in Sources */,
 				A89E214026A756D3002A4D73 /* SceneDelegate.swift in Sources */,
