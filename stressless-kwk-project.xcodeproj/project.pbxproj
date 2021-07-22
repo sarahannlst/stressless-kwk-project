@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A814168926A895CA003E6241 /* ToDoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A814168826A895CA003E6241 /* ToDoListTableViewController.swift */; };
+		A87E67B426A8970800B952A8 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E67B326A8970800B952A8 /* ToDo.swift */; };
+		A87E67B626A8976100B952A8 /* CompletedToDo1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E67B526A8976100B952A8 /* CompletedToDo1ViewController.swift */; };
+		A87E67B826A897F800B952A8 /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87E67B726A897F800B952A8 /* AddToDoViewController.swift */; };
 		A89E213E26A756D3002A4D73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89E213D26A756D3002A4D73 /* AppDelegate.swift */; };
 		A89E214026A756D3002A4D73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89E213F26A756D3002A4D73 /* SceneDelegate.swift */; };
-		A89E214226A756D3002A4D73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A89E214126A756D3002A4D73 /* ViewController.swift */; };
 		A89E214526A756D3002A4D73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A89E214326A756D3002A4D73 /* Main.storyboard */; };
 		A89E214826A756D3002A4D73 /* stressless_kwk_project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A89E214626A756D3002A4D73 /* stressless_kwk_project.xcdatamodeld */; };
 		A89E214A26A756D4002A4D73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A89E214926A756D4002A4D73 /* Assets.xcassets */; };
@@ -17,10 +20,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A814168826A895CA003E6241 /* ToDoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListTableViewController.swift; sourceTree = "<group>"; };
+		A87E67B326A8970800B952A8 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		A87E67B526A8976100B952A8 /* CompletedToDo1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedToDo1ViewController.swift; sourceTree = "<group>"; };
+		A87E67B726A897F800B952A8 /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		A89E213A26A756D3002A4D73 /* stressless-kwk-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stressless-kwk-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89E213D26A756D3002A4D73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A89E213F26A756D3002A4D73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A89E214126A756D3002A4D73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A89E214426A756D3002A4D73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A89E214726A756D3002A4D73 /* stressless_kwk_project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = stressless_kwk_project.xcdatamodel; sourceTree = "<group>"; };
 		A89E214926A756D4002A4D73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,8 +66,11 @@
 			children = (
 				A89E213D26A756D3002A4D73 /* AppDelegate.swift */,
 				A89E213F26A756D3002A4D73 /* SceneDelegate.swift */,
-				A89E214126A756D3002A4D73 /* ViewController.swift */,
 				A89E214326A756D3002A4D73 /* Main.storyboard */,
+				A87E67B726A897F800B952A8 /* AddToDoViewController.swift */,
+				A814168826A895CA003E6241 /* ToDoListTableViewController.swift */,
+				A87E67B326A8970800B952A8 /* ToDo.swift */,
+				A87E67B526A8976100B952A8 /* CompletedToDo1ViewController.swift */,
 				A89E214926A756D4002A4D73 /* Assets.xcassets */,
 				A89E214B26A756D4002A4D73 /* LaunchScreen.storyboard */,
 				A89E214E26A756D4002A4D73 /* Info.plist */,
@@ -140,10 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A87E67B626A8976100B952A8 /* CompletedToDo1ViewController.swift in Sources */,
 				A89E214826A756D3002A4D73 /* stressless_kwk_project.xcdatamodeld in Sources */,
-				A89E214226A756D3002A4D73 /* ViewController.swift in Sources */,
+				A87E67B426A8970800B952A8 /* ToDo.swift in Sources */,
 				A89E213E26A756D3002A4D73 /* AppDelegate.swift in Sources */,
+				A87E67B826A897F800B952A8 /* AddToDoViewController.swift in Sources */,
 				A89E214026A756D3002A4D73 /* SceneDelegate.swift in Sources */,
+				A814168926A895CA003E6241 /* ToDoListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
