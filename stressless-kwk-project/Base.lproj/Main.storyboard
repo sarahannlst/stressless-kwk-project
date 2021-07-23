@@ -247,7 +247,7 @@
             </objects>
             <point key="canvasLocation" x="3663.7681159420295" y="253.79464285714283"/>
         </scene>
-        <!--Root View Controller-->
+        <!--to-do list-->
         <scene sceneID="Cib-ZY-fbQ">
             <objects>
                 <tableViewController id="8L2-n7-Fps" customClass="ToDoListTableViewController" customModule="stressless_kwk_project" customModuleProvider="target" sceneMemberID="viewController">
@@ -277,7 +277,7 @@
                             <outlet property="delegate" destination="8L2-n7-Fps" id="Dk7-Gk-UO1"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Root View Controller" id="ElI-ry-U7a">
+                    <navigationItem key="navigationItem" title="to-do list" id="ElI-ry-U7a">
                         <barButtonItem key="rightBarButtonItem" title="+" id="cNf-ig-GD2">
                             <connections>
                                 <segue destination="9mS-4C-rXg" kind="show" id="BUh-rw-fCz"/>
