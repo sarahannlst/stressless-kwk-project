@@ -8,26 +8,23 @@
 import UIKit
 
 class WritePostViewController: UIViewController {
-
     
     
     
     @IBOutlet weak var label: UILabel!
     
     @IBOutlet weak var typeHere: UITextField!
-    var postText = "\(typeHere.text)"
+    var postText = ""
     
     
     //func gettypeHere () -> String? {return typeHere.text}
-    
-
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func postButton(_ sender: Any) {
+        
     }
     
     
@@ -36,7 +33,12 @@ class WritePostViewController: UIViewController {
           let destinationController = segue.destination as! SeePostViewController
           destinationController.finalPost = typeHere.text!
         }
+        
     
+            
+
+    
+        
 
     /*
     // MARK: - Navigation
