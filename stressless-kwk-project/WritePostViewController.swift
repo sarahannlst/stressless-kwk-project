@@ -21,6 +21,7 @@ class WritePostViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
     }
     
     @IBAction func postButton(_ sender: Any) {

@@ -114,7 +114,7 @@
                                 <state key="normal" title="submit !"/>
                                 <connections>
                                     <action selector="postButton:" destination="qXt-pu-VDe" eventType="touchUpInside" id="jpj-Xf-XwA"/>
-                                    <segue destination="bgy-Iy-k2C" kind="show" id="qxr-To-6T0"/>
+                                    <segue destination="bgy-Iy-k2C" kind="show" identifier="ShowBlog" id="qxr-To-6T0"/>
                                 </connections>
                             </button>
                         </subviews>

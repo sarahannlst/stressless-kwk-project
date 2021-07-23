@@ -2,7 +2,7 @@
 //  ToDoListTableViewController.swift
 //  stressless-kwk-project
 //
-//  Created by  Scholar on 7/21/21.
+//  Created by  Gabi Mitchell on 7/21/21.
 //
 
 import UIKit
