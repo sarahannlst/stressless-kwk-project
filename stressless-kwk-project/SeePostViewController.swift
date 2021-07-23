@@ -9,25 +9,38 @@ import UIKit
 
 class SeePostViewController: UIViewController {
     
+    //static var variable = ""
+    
     @IBOutlet weak var label1: UILabel!
     //label1
     
+    
+    @IBOutlet weak var label2: UILabel!
+    
+    //var WritePostViewControllerInstance: WritePostViewController?
+    
+    //func showResult() {label2.text = WritePostViewControllerInstance?.gettypeHere()}
+    
+    @IBOutlet weak var textview: UITextView!
+    
+    
+    
     @IBOutlet weak var textF1: UITextField!
     //textF1
-    
     var finalPost = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()
         label1.text = finalPost
-
-        // Do any additional setup after loading the view.
+       // label2.text = finalPost
+        textview.text = label1.text
     }
     
     @IBAction func button2(_ sender: Any) {
+       textF1.isHidden = false
         label1.isHidden = false
     }
-    //button2
+    
     
     
 

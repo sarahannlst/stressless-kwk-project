@@ -8,18 +8,23 @@
 import UIKit
 
 class WritePostViewController: UIViewController {
+
+    
     
     
     @IBOutlet weak var label: UILabel!
     
     @IBOutlet weak var typeHere: UITextField!
-    var postText = ""
+    var postText = "\(typeHere.text)"
+    
+    
+    //func gettypeHere () -> String? {return typeHere.text}
+    
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
     @IBAction func postButton(_ sender: Any) {
